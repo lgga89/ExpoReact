@@ -1,9 +1,10 @@
 import React from 'react'
+import {Menus} from './components/Menus'
 
-export  function App() {
+export function App() {
   return (
     <div>
-      hola
+      <Menus/>      
     </div>
   )
 }
