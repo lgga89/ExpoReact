@@ -10,7 +10,7 @@ export function Cover() {
                     <h6>08 al 10 de Diciembre</h6>
                 </div>
                 <div className="cover__logo">
-                    <img className="cover__img" src="img/logo_anacofer.png" alt=""/>
+                <img className="cover__img" src={require("../img/logo_anacofer.png")} alt ="logo"/>
                 </div>
         </div> 
         <div className="cover__day">

@@ -1,3 +1,134 @@
 .cover {
-  background: red;
+  width: 100%;
+  position: relative;
+  .cover__presentation {
+    position: absolute;
+    .cover__bottom {
+      color: rgb(255, 255, 255);
+      //line-height: 79px;
+      font-size: 20px;
+      white-space: normal;
+      text-align: center;
+    }
+    .cover__logo {
+      padding: 50px auto;
+      //text-align: right;
+      text-align: center;
+
+      .cover__img {
+        width: 50%;
+      }
+    }
+  }
+  .cover__day {
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    left: 100px;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .cover__imagen {
+    background: linear-gradient(
+        rgba(108, 111, 116, 0.75),
+        rgba(135, 137, 141, 0.418)
+      ),
+      url("../img/fondo.jpeg") no-repeat center center fixed;
+    background-size: cover;
+
+    width: 100%;
+    height: 300px; // 800px
+  }
+}
+@media (min-width: 800px) {
+  .cover {
+    width: 100%;
+    .cover__presentation {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 50px;
+      .cover__bottom {
+        width: 50%;
+      }
+      .cover__logo {
+        width: 50%;
+        .cover__img {
+          width: 70%;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .cover {
+    width: 100%;
+    .cover__presentation {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 50px;
+      .cover__bottom {
+        width: 50%;
+        padding-left: 80px;
+        text-align: left;
+        h1 {
+          font-size: 120px;
+        }
+        h6 {
+          font-size: 40px;
+        }
+      }
+      .cover__logo {
+        width: 50%;
+        .cover__img {
+          width: 90%;
+        }
+      }
+    }
+    .cover__imagen {
+      height: 800px;
+    }
+    .cover__day {
+      display: block;
+      text-align: left;
+
+      p {
+        margin: 5px 0;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .cover {
+    .cover__presentation {
+      .cover__bottom {
+        h1 {
+          font-size: 180px;
+        }
+        h6 {
+          font-size: 40px;
+          margin-top: 10px;
+        }
+      }
+      .cover__logo {
+        width: 50%;
+        .cover__img {
+          width: 80%;
+        }
+      }
+    }
+    .cover__imagen {
+      height: 800px;
+    }
+    .cover__day {
+      display: block;
+      text-align: left;
+      left: 80px;
+      bottom: 5px;
+    }
+  }
 }

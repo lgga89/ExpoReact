@@ -1,11 +1,14 @@
-import React from 'react'
-import {Cover} from './components/Cover'
-import './main.scss';
+import React from 'react';
+import './index.scss';
+import {Cover} from './components/Cover';
+import {Menu} from './components/Menu'
 
 export function App() {
   return (
     <div>
-      <Cover/>      
+      <Menu/>
+      <Cover/> 
+   
     </div>
   )
 }
