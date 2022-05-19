@@ -1,0 +1,32 @@
+header {
+  background: #fff;
+  position: relative;
+  z-index: 3;
+
+  .container__header {
+    display: flex;
+    justify-content: space-between;
+
+    //max-width: 1200px;
+    //margin: 0 auto;
+    .header__logo {
+      margin: 10px 0;
+      img {
+        width: 80px;
+      }
+    }
+  }
+}
+
+@media (min-width: 480px) {
+  header {
+    padding: 0 16px;
+    .container__header {
+      .header__logo {
+        img {
+          width: 150px;
+        }
+      }
+    }
+  }
+}

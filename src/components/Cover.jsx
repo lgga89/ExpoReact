@@ -2,6 +2,7 @@ import React from 'react'
 
 export function Cover() {
   return (
+  
     <div className ="cover">
         <div className="cover__presentation">
                 <div className="cover__bottom">
@@ -22,5 +23,6 @@ export function Cover() {
             <div className="cover__imagen">
             </div>
     </div>
+   
   )
 }

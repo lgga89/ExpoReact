@@ -1,12 +1,12 @@
-import React from 'react'
-
+import React from 'react';
+import Expo from "../img/Expo.png";
 export  function Menu() {
   return (
   <header>
     <div className="container  container__header">
     <div className="header__logo">
         <a href="index.html">
-            {/*<img src={require("../img/ExpoFertilizantes_logo.png")} alt ="logo"/> */}
+            <img src={Expo}/>         
         </a>
     </div>
     <div className="menu__hamburger ">
