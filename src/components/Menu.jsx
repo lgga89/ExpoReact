@@ -6,7 +6,7 @@ export  function Menu() {
     <div className="container  container__header">
     <div className="header__logo">
         <a href="index.html">
-            <img src={Expo}/>         
+            <img src={Expo} alt="logo"/>         
         </a>
     </div>
     <div className="menu__hamburger ">
