@@ -1,0 +1,128 @@
+.wrap {
+  width: 800px;
+  max-width: 90%;
+  margin: 30px auto;
+  font-family: "Cairo";
+
+  .program__title {
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 50px;
+  }
+  .tabs {
+    color: #e6e6e6;
+  }
+}
+
+ul {
+  padding: 0;
+}
+
+ul.tabs {
+  width: 100%;
+  background: rgb(202, 198, 198);
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-style: normal;
+}
+
+ul.tabs li {
+  width: 50%;
+}
+
+ul.tabs li a {
+  text-decoration: none;
+  font-size: 20px;
+  text-align: left;
+  text-align: center;
+  display: block;
+  padding: 10px 0px;
+  border-right: 2px solid #ffffff;
+}
+
+.active {
+  background: #036836;
+}
+
+.tab-text:hover {
+  color: rgb(255, 255, 255);
+}
+
+.secciones {
+  width: 100%;
+  background: #fff;
+  article {
+    p {
+      text-align: justify;
+    }
+  }
+}
+
+table {
+  background-color: white;
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  //padding: 20px;
+  border-bottom: 1px solid #dddddd;
+}
+
+th {
+  border-right: 1px solid #ffffff;
+}
+thead {
+  background-color: #e6e6e6;
+  font-size: 26px;
+
+  text-align: center;
+}
+
+tr:hover td {
+  background-color: #369681;
+  color: white;
+}
+.tab-text {
+  color: black;
+}
+
+li:hover .tab-text {
+  color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+  ul.tabs li {
+    width: none;
+    flex-basis: 0;
+    flex-grow: 1;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  ul.tabs li a {
+    padding: 15px 0px;
+  }
+
+  ul.tabs li a .tab-text {
+    //display: none;
+  }
+
+  .secciones article {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 450px) {
+  td {
+    padding: 30px 0;
+  }
+  li {
+    line-height: 25px;
+  }
+}
