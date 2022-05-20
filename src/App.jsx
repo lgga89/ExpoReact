@@ -6,6 +6,9 @@ import { Description } from "./components/Description";
 import { Lecturers } from "./components/Lecturers";
 import { Wrap } from "./components/Wrap";
 import { Campus } from "./components/Campus";
+import { Map } from "./components/Map";
+import { Gallery } from "./components/Gallery";
+import { Contact } from "./components/Contact";
 export function App() {
   return (
     <div>
@@ -15,6 +18,9 @@ export function App() {
       <Lecturers />
       <Wrap />
       <Campus />
+      <Map />
+      <Gallery />
+      <Contact />
     </div>
   );
 }

@@ -1,0 +1,23 @@
+html {
+  scroll-behavior: smooth;
+  color: #000000;
+  font-family: "cairo";
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 2000px;
+    margin: 0 auto;
+    font-family: "Cairo";
+  }
+}
+
+@media (min-width: 800px) {
+  body {
+    h2 {
+      font-family: "Cairo";
+      font-size: 90px;
+      line-height: 70px;
+    }
+  }
+}

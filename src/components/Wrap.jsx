@@ -2,28 +2,28 @@ import React from "react";
 
 export function Wrap() {
   return (
-    <div class="wrap" id="Programa">
-      <div class="program__title">
+    <div className="wrap" id="Programa">
+      <div className="program__title">
         <h2>PROGRAMA 2021</h2>
       </div>
-      <ul class="tabs">
+      <ul className="tabs">
         <li>
           <a href="#tab1">
-            <span class="tab-text">Miercoles 08 de diciembre</span>
+            <span className="tab-text">Miercoles 08 de diciembre</span>
           </a>
         </li>
         <li>
           <a href="#tab2">
-            <span class="tab-text">Jueves 09 de diciembre</span>
+            <span className="tab-text">Jueves 09 de diciembre</span>
           </a>
         </li>
         <li>
           <a href="#tab3">
-            <span class="tab-text">viernes 10 de diciembre</span>
+            <span className="tab-text">viernes 10 de diciembre</span>
           </a>
         </li>
       </ul>
-      <div class="secciones">
+      <div className="secciones">
         <article id="tab1">
           <table>
             <thead>

@@ -1,0 +1,109 @@
+.gallery {
+  text-align: center;
+  .gallery__title {
+    margin: 100px 0 50px;
+  }
+  .gallery__container {
+    display: flex;
+    width: 88%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    z-index: 1;
+  }
+}
+
+.gallery__container {
+  .photo__gallery {
+    width: 300px; // 400 responsive
+    height: 400px;
+    position: relative;
+    margin-bottom: 35px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
+    transition: 0.6s ease;
+  }
+}
+.photo__gallery:hover {
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+.photo__gallery {
+  img {
+    width: 300px; // para jugar con el tamaño en el r4sponsive
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    height: 0;
+    transition: 0.55s ease;
+    overflow: hidden;
+  }
+}
+
+.photo__gallery:hover .overlay {
+  height: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/*---------------------*/
+
+.contenedor-modal.active {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.contenedor-modal.active img {
+  z-index: 3;
+  width: 700px;
+  height: 700px;
+}
+
+.contenedor-modal.active::after {
+  position: fixed;
+  content: "";
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(211, 211, 211, 0.459);
+}
+
+.contenedor-modal.active {
+  background-color: rgba(211, 211, 211, 0.459);
+}
+
+@media (min-width: 480px) {
+  .gallery__container {
+    .photo__gallery {
+      width: 400px; // 400 responsive
+      height: 400px;
+      position: relative;
+      margin-bottom: 35px;
+      border-radius: 5px;
+      box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
+      transition: 0.6s ease;
+    }
+    .photo__gallery {
+      img {
+        width: 400px; // para jugar con el tamaño en el r4sponsive
+        height: 400px;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+    }
+  }
+}
