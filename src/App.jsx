@@ -9,6 +9,7 @@ import { Campus } from "./components/Campus";
 import { Map } from "./components/Map";
 import { Gallery } from "./components/Gallery";
 import { Contact } from "./components/Contact";
+import { Tabs } from "./components/Tabs";
 export function App() {
   return (
     <div>
@@ -17,6 +18,7 @@ export function App() {
       <Description />
       <Lecturers />
       <Wrap />
+      <Tabs />
       <Campus />
       <Map />
       <Gallery />
