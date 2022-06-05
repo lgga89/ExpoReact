@@ -9,6 +9,10 @@ export function Tabs() {
 
   return (
     <div className="container_tabs">
+      <div className="program__title">
+        <h2>PROGRAMA 2021</h2>
+      </div>
+
       <div className="bloc-tabs">
         <button
           className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
@@ -130,27 +134,199 @@ export function Tabs() {
         <div
           className={toggleState === 2 ? "content  active-content" : "content"}
         >
-          <h2>Content 2</h2>
-          <hr />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-            voluptatum qui adipisci.
-          </p>
+          <article id="tab2">
+            <table>
+              <thead>
+                <tr>
+                  <th>Hora</th>
+                  <th>Actividad</th>
+                  <th>Lugar</th>
+                </tr>
+              </thead>
+
+              <tr>
+                <td>10:00</td>
+                <td>
+                  <strong>
+                    Panel: "Financiamiento para el sector agroalimentario"
+                  </strong>
+                  <li>
+                    Lic. Ignacio Gómez Trápala - Director General Adjunto de
+                    Promoción de Negocios y Coordinación Regional de la FND.
+                  </li>
+                  <li>
+                    Lic. José Antonio Cortés Barrientos - Dirección General
+                    Adjunta de Promoción de Negocios de FIRA.
+                  </li>
+                  <li>
+                    Ing. Onécimo Pérez Ochoa - Representante de la ABM Capitulo
+                    Agropecuario.
+                  </li>
+                  <li>
+                    Moderador: Mtro. Carlos Rodriguez Arana Avila - Director
+                    General de Gestión de Riesgos de AGRICULTURA.
+                  </li>
+                </td>
+                <td>Salón de Usos Múltiples</td>
+              </tr>
+              <tr>
+                <td>11:00</td>
+                <td>
+                  <strong>
+                    La importancia de los fertilizantes de eficiencia mejorada.
+                  </strong>
+                  <li>Saul Wong García - Pacifex</li>
+                </td>
+                <td>Salón de Usos Múltiples</td>
+              </tr>
+              <tr>
+                <td>12:00</td>
+                <td>
+                  <strong>
+                    Comportamiento del sector agropecuario en el Estado de
+                    Veracruz.
+                  </strong>
+                  <li>
+                    Dr. Evaristo Ovando Ramírez - Titular de la Secretaría de
+                    Desarrollo Agropecuario, Rural y Pesca (SEDARPA).
+                  </li>
+                  <br />
+                </td>
+                <td>Salón de Usos Múltiples</td>
+              </tr>
+              <tr>
+                <td>13:00</td>
+                <td>
+                  <strong>
+                    Tecnología satelital aplicada al cultivo y fertilización de
+                    caña.
+                  </strong>
+                  <li>Dr. Eloy Camacho - Tepeyac.</li>
+                </td>
+                <td>Salón de Usos Múltiples</td>
+              </tr>
+              <tr>
+                <td>14:00</td>
+                <td>
+                  <strong>
+                    Haifa Nutrinet: Sistema online para el manejo de la
+                    nutrición.
+                  </strong>
+                  <li>Ing. Juan Manuel Diaz - Gerente Técnico Haifa México.</li>
+                </td>
+                <td>Salón de Usos Múltiples</td>
+              </tr>
+            </table>
+          </article>
         </div>
 
         <div
           className={toggleState === 3 ? "content  active-content" : "content"}
         >
-          <h2>Content 3</h2>
-          <hr />
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos sed
-            nostrum rerum laudantium totam unde adipisci incidunt modi alias!
-            Accusamus in quia odit aspernatur provident et ad vel distinctio
-            recusandae totam quidem repudiandae omnis veritatis nostrum
-            laboriosam architecto optio rem, dignissimos voluptatum beatae
-            aperiam voluptatem atque. Beatae rerum dolores sunt.
-          </p>
+          <article id="tab3">
+            <table>
+              <thead>
+                <tr>
+                  <th>Hora</th>
+                  <th>Actividad</th>
+                  <th>Lugar</th>
+                </tr>
+              </thead>
+
+              <tr>
+                <td>10:00</td>
+                <td>
+                  <strong>
+                    Panel Intercambio de Experiencias: "Fertilizantes para el
+                    Bienestar" -por definir-
+                  </strong>
+                  <li>
+                    Aurelio Flores Solano - Presidente Municipal de Guadalupe
+                    Victoria, Puebla.
+                  </li>
+                  <li>
+                    Mtra. Katia Isabel Herrera Quevedo - Secretaria de
+                    Desarrollo Agropecuario del Edo de Morelos
+                  </li>
+                  <li>
+                    Iván Hernández Díaz - Delegado Estatal de Programas para el
+                    Desarrollo en Guerrero.
+                  </li>
+                  <li>Beneficiario del Programa -por definir-</li>
+                  <li>
+                    Moderador: José Luis Arizmendi Bahena - Encargado del
+                    Despacho de la Representación de la "SADER" en el Estado de
+                    Morelos.
+                  </li>
+                </td>
+                <td>Salón de Usos Múltiples</td>
+              </tr>
+              <tr>
+                <td>11:00</td>
+                <td>
+                  <strong>
+                    Panel: Uso eficiente y adecuado de Fertilizantes.
+                  </strong>
+                  <li>
+                    Dra. Vinisia Saynes Santillan - Colegios de Postgraduados.
+                  </li>
+                  <li>
+                    Ing. Francisco Rodríguez Neave - Universidad Autónoma
+                    Chapingo.
+                  </li>
+                  <li>
+                    M.C. Andrés Vásquez Hernández - Instituto Nacional de
+                    Investigaciones Forestales Agrícolas y Pecuarias.
+                  </li>
+                  <li>
+                    Moderador: Ing. Oscar Javier Fernández Morales - Encargado
+                    del Despacho de la Representación de la "SADER" en el Estado
+                    de Veracruz.
+                  </li>
+                </td>
+                <td>Salón de Usos Múltiples</td>
+              </tr>
+              <tr>
+                <td>12:00</td>
+                <td>
+                  <strong>
+                    La importancia de la regeneración de suelos para incrementar
+                    la rentabilidad agrícola.
+                  </strong>
+                  <li>
+                    Dr. Santo Morales Vidal - Consejo Mexicano de
+                    Agrobiotecnología A.C. (CoMABio).
+                  </li>
+                  <br />
+                </td>
+                <td>Salón de Usos Múltiples</td>
+              </tr>
+              <tr>
+                <td>13:00</td>
+                <td>
+                  <strong>
+                    Las Ventajas de la eficiencia en el Uso de Nitrógeno.
+                  </strong>
+                  <li>Ing. Abelardo Devia -Isaosa.</li>
+                </td>
+                <td>Salón de Usos Múltiples</td>
+              </tr>
+              <tr>
+                <td>14:00</td>
+                <td>
+                  <strong>
+                    Requisitos para la certificación de una biofábrica de
+                    insumos orgánicos.
+                  </strong>
+                  <li>
+                    Ing. Mauro Nieves - Presidente del Consejo Orgánico de
+                    Veracruz A. C.
+                  </li>
+                </td>
+                <td>Salón de Usos Múltiples</td>
+              </tr>
+            </table>
+          </article>
         </div>
       </div>
     </div>

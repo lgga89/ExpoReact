@@ -4,7 +4,6 @@ import { Cover } from "./components/Cover";
 import { Menu } from "./components/Menu";
 import { Description } from "./components/Description";
 import { Lecturers } from "./components/Lecturers";
-import { Wrap } from "./components/Wrap";
 import { Campus } from "./components/Campus";
 import { Map } from "./components/Map";
 import { Gallery } from "./components/Gallery";
@@ -17,7 +16,6 @@ export function App() {
       <Cover />
       <Description />
       <Lecturers />
-      <Wrap />
       <Tabs />
       <Campus />
       <Map />

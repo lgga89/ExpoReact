@@ -14,12 +14,12 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
-  width: 500px;
-  height: 300px;
+  //width: 300px;
+
   background: #f1f1f1;
   margin: 100px auto 0;
-  word-break: break-all;
-  border: 1px solid rgba(0, 0, 0, 0.274);
+  //word-break: break-all;
+  //border: 1px solid rgba(0, 0, 0, 0.274);
 }
 
 .bloc-tabs {
@@ -65,24 +65,58 @@ button {
 }
 .content {
   background: white;
-  padding: 20px;
+  padding: 5px;
   width: 100%;
-  height: 100%;
   display: none;
 }
-.content h2 {
+h2 {
   padding: 0px 0 5px 0px;
+  text-align: center;
 }
 .content hr {
   width: 100px;
-  height: 2px;
   background: #222;
   margin-bottom: 5px;
 }
+
 .content p {
   width: 100%;
-  height: 100%;
 }
 .active-content {
   display: block;
+}
+
+table {
+  background-color: white;
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 20px 0;
+  border-bottom: 1px solid #dddddd;
+}
+
+th {
+  border-right: 1px solid #ffffff;
+}
+thead {
+  background-color: #e6e6e6;
+  font-size: 26px;
+
+  text-align: center;
+}
+
+tr:hover td {
+  background-color: #369681;
+  color: white;
+}
+.tab-text {
+  color: black;
+}
+
+li:hover .tab-text {
+  color: #fff;
 }
